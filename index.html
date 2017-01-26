@@ -10,14 +10,16 @@
 	<div class="wrapper">
 		<header>
 			<div class="phone">
-				<img src="img/phone.png" alt="phone">
+				<img src="img/phone.png" alt="phone"> 
 				<p>(044)123-45-67 (044)567-89-10</p>
 			</div>
 			<form action="#" class="login clearfix">
 				<img src="img/man.png" alt="man">
-				<input type="text" placeholder="логин">
-				<input type="password" placeholder="пароль">
+				<input required type="text" placeholder="логин">
+				<input required type="password" placeholder="пароль">
+				<button class="enter"></button>
 				<a href="#" class="button">вход</a>
+				<button class="reg"></button>
 				<a href="#" class="reg_button">регистрация</a>
 				<a href="#" class="support">забыли пароль?</a>
 			</form>
@@ -28,6 +30,7 @@
 					<li> <a href="#"><img src="img/mail.png" alt=""></a> </li>
 				</ul>
 			</div>
+			<a href="#"><img src="img/logo_baner.png" alt="" class="baner_logo"></a>
 			<img class="baner" src="img/baner.jpg" alt="baner">
 			<div class="menu">
 				<ul>
@@ -41,9 +44,156 @@
 			</div>
 		</header>
 		<div class="main clearfix">
-			<form action="#" class="find_auto clearfix">bonus</form>
-			<form action="#" class="find_tires clearfix">bonus</form>
-			<form action="#" class="find_disc clearfix">bonus</form>
+			<form action="#" class="find_auto clearfix">
+				<h6 class="left_h6">Диски:</h6>
+				<h5>Поиск по автомобилю</h5>
+				<h6 class="right_h6">Шины:</h6>
+				<div class="block1">
+					<label>
+						Марка <span>авто</span> :
+						<select class="auto" name="auto">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="clearfix">
+						Модель <span class="model">автомобиля :</span>
+						<select class="model" name="model">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="clearfix">
+						Год выпуска <span class="year">автомобиля :</span>
+						<select class="year" name="year">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="comp clearfix">
+						Комплектация :
+						<select class="compl" name="compl">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+				</div>
+				<div class="block2">
+					<label>
+						Марка <span>авто</span> :
+						<select class="auto" name="auto">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="clearfix">
+						Модель <span class="model2">автомобиля :</span>
+						<select class="model" name="model">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="clearfix">
+						Год выпуска <span class="year2">автомобиля :</span>
+						<select class="year" name="year">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+					<label class="comp clearfix">
+						Комплектация :
+						<select class="compl" name="compl">
+							<option value="1"></option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+						</select>
+					</label>
+				</div>
+				<a href="#" class="find">ПОИСК...</a>
+			</form>
+			<form action="#" class="find_tires clearfix">
+				<h5 class="form2">ПОИСК ШИН</h5>
+				<label class="size">
+					Размер: 
+					<select name="size">
+						<option value="1"></option>
+						<option value="2">...</option>
+					</select>
+					/
+					<select name="size">
+						<option value="1"></option>
+						<option value="2">...</option>
+					</select>
+				</label>
+				<label class="R">
+					R 
+					<select name="R">
+						<option value="1"></option>
+						<option value="2">...</option>
+					</select>
+				</label>
+				<p class="season_text">Сезон :</p>
+				<label class="season">
+					<input type="checkbox" name="option1" value="a1">лето<Br>
+				</label>
+				<label class="season">
+					<input type="checkbox" name="option2" value="a2">зима<Br> 
+				</label>
+				<label class="season">
+					<input type="checkbox" name="option3" value="a3">всесез<Br> 
+				</label>
+				<a href="#" class="find fixed">ПОИСК...</a>
+			</form>
+			<form action="#" class="find_disc clearfix">
+				<h5 class="form2">ПОИСК ДИСКОВ</h5>
+				<div class="box1">
+					<label>
+						<div class="title">Диаметр <span>дика :</span></div>
+						<select name="d">
+							<option value="1"></option>
+							<option value="2">...</option>
+						</select>
+					</label>
+					<label>
+						<div class="title">Количество <span>крепёжных отверстий :</span></div>
+						<select class="d2" name="d">
+							<option value="1"></option>
+							<option value="2">...</option>
+						</select>
+					</label>
+					<label>
+						<div class="title">Диаметр <span>расположения крепёжных отверстий :</span></div>
+						<select class="d3" name="d">
+							<option value="1"></option>
+							<option value="2">...</option>
+						</select>
+					</label>
+				</div>
+				<div class="box2">
+					<label>
+						ДЦО <br><span>(диаметр центрального отверстия) :</span>
+						<select class="b2_1" name="d">
+							<option value="1"></option>
+							<option value="2">...</option>
+						</select>
+					</label>
+					<label>
+						ЕТ <br><span>(вылет диска) :</span>
+						<select class="b2_2" name="d">
+							<option value="1"></option>
+							<option value="2">...</option>
+						</select>
+					</label>
+				</div>
+				<a href="#" class="find">ПОИСК...</a>
+			</form>
 			<form class="sidebar_right clearfix">
 				<div class="catalog clearfix">
 					<img src="img/list.png" alt="1">

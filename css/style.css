@@ -12,6 +12,10 @@
 
 /* HEADER */
 
+header {
+	position: relative;
+}
+
 .phone {
 	margin-top: 22px;
 }
@@ -59,6 +63,28 @@
  	font-size: 11px;
  }
 
+button.enter {
+	position: absolute;
+	top: 5px;
+	right: 306px;
+	height: 9px;
+	width: 26px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
+button.reg {
+	position: absolute;
+	top: 5px;
+	right: 228px;
+	height: 9px;
+	width: 70px;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
 .login a {
  	float: left;
  	color: white;
@@ -102,6 +128,12 @@ a.support {
 
 img.baner {
 	margin: 8px 0px 0px -7px;
+}
+
+.baner_logo {
+	position: absolute;
+	top: 140px;
+	left: -5px;
 }
 
 .menu {
@@ -183,6 +215,196 @@ img.baner {
 
 
 /* MAIN */
+
+.left_h6 {
+	font-family: Arial;
+	float: left;
+	margin: 6px 0 0 20px;
+	font-size: 10px;
+	color: #154468;
+	font-weight: bold;
+}
+
+.right_h6 {
+	font-family: Arial;
+	float: right;
+	margin: 3px 25px 0 0;
+	font-size: 10px;
+	color: #154468;
+	font-weight: bold;
+}
+
+h5 {
+	font-family: Arial;
+	float: left;
+	margin: 1px 55px 0 73px;
+	font-size: 12px;
+	color: #154468;
+	font-weight: bold;
+}
+
+.block1 {
+	float: left;
+	width: 50%;
+	margin-top: 7px;
+	margin-left: -36px;
+}
+
+.block2 {
+	float: left;
+	width: 195px;
+	margin-top: 5px;
+	margin-left: -6px;
+}
+
+label {
+	font-size: 10px;
+}
+
+label span {
+	font-size: 8px;
+	color: #77858b;
+	padding-top: 1px;
+}
+
+select.auto {
+	width: 100px;
+	margin: 0 0 0 18px;
+}
+
+select.model {
+	float: left;
+	width: 100px;
+	margin: -11px 0 0 76px;
+}
+
+span.model {
+	position: absolute;
+	top: 400px;
+	left: 206px;
+}
+
+span.model2 {
+	position: absolute;
+	top: 398px;
+	left: 407px;
+}
+
+select.year {
+	float: left;
+	width: 55px;
+	margin: -11px 20px 0 76px;
+}
+
+span.year {
+	position: absolute;
+	top: 421px;
+	left: 206px;
+}
+
+span.year2 {
+	position: absolute;
+	top: 422px;
+	left: 407px;
+}
+
+select.compl {
+	margin-top: 4px;
+	width: 100px;
+}
+
+.find {
+	float: right;
+	font-size: 14px;
+	font-style: italic;
+	color: #154467;
+	margin: 3px 16px 0 0;
+}
+
+.form2 {
+	margin: 5px 75px 5px 10px;
+}
+
+.size select {
+	width: 55px;
+	margin: 0 0 0 0;
+} 
+
+.find_tires label {
+	margin: 0 0 0 15px;
+}
+
+label.R {
+	float: left;
+	margin: 5px 0 0 48px;
+}
+
+.R select {
+	padding: 0 0 0 9px;
+}
+
+label.season {
+	float: left;
+	margin: 0 0 -4px 54px;
+}
+
+.season_text {
+	position: absolute;
+	font-size: 10px;
+	top: 411px;
+	right: 615px;
+}
+
+.fixed {
+	margin-top: 70px;
+}
+
+.box1 {
+	float: left;
+	margin: 0 0 0 0;
+	width: 180px;
+}
+
+.title {
+	float: left;
+	width: 70px;
+	padding-top: 4px;
+	padding-left: 17px;
+}
+
+.box1 select {
+	float: left;
+	width: 60px;
+	margin: 0 0 5px 0;
+}
+
+.box1 .d2 {
+	margin: 9px 0 6px 0;
+}
+
+.box1 .d3 {
+	margin: 9px 0 0 0;
+}
+
+.box2 {
+	float: right;
+	width: 65px;
+	height: 105px;
+	border-left: 1px solid #bdc6ca;
+	margin-top: -20px;
+	padding-left: 15px;
+	line-height: 8px;
+}
+
+
+.box2 select {
+	width: 50px;
+}
+
+
+
+
+
 
 
 .find_auto {
